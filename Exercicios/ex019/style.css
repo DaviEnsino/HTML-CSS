@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color: #0E9DF0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#beleza {
+    background-color: #0E0EF0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.beleza02 {
+    background-color: #A20EF0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

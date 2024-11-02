@@ -1,0 +1,30 @@
+:root {
+    --cor1: #3C8658;
+    --cor2: #5C5538;
+    --cor3: #19DB62;
+    --cor4: #1918DB;
+    --cor5: #DB2218;
+    --cor6: #DBB818;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+nav {
+    background-color: var(--cor5);
+}
+
+.cabeca {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    background-color: white;
+}
