@@ -10,21 +10,20 @@
         }
 
         table{
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
-        }
-
-        tr.linha {
-            background-color: gray;
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
+            vertical-align: middle;
         }
 
-        td#dado{
-            background-color: red;
+        .numero {
+            text-align: right;
         }
     </style>
 </head>
@@ -41,7 +40,7 @@
         <tr> <!-- primeria linha -->
             <td>a1
             <td>b1
-            <td>c1
+            <td class="numero">100
         <tr> <!-- segunda linha -->
             <td>a2</td>
             <td>b2</td>
@@ -49,13 +48,13 @@
         </tr>
         <tr> <!-- terceira linha -->
             <td>a3</td>
-            <td id="dado">b3</td>
+            <td>b3</td>
             <td>c3</td>
         </tr> 
-        <tr class="linha"> <!-- quarta linha -->
+        <tr> <!-- quarta linha -->
             <td>a4</td>
             <td>b4</td>
-            <td>c4</td>
+            <td class="numero">400</td>
         </tr>
     </table>
 </body>
