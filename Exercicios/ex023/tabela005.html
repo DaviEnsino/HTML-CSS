@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 800px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th {
+            border: 1px solid rgb(38, 38, 38);
+            padding: 10px;
+        }
+
+        .destaque {
+            background-color: green;
+        }
+
+        col.csexo {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadrasto</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr class="destaque">
+            <td>Fernanda</td>
+            <td>F</td>
+            <td>17</td>
+            <td>estudante</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>M</td>
+            <td>25</td>
+            <td>jogador</td>
+        </tr>
+        <tr class="destaque">
+            <td>Gyzelli</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Modelo</td>
+        </tr>
+    </table>
+</body>
+</html>
